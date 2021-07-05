@@ -1,0 +1,102 @@
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0,0,0,0.65) !important;
+  transition: background-color 200ms linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-fixed-top.hamclick {
+  background-color: rgba(0,0,0,0.65) !important;
+  transition: background-color 200ms linear;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #7239d0!important;
+  border-color: rgba(4,4,4,0)!important;
+  color: #fff;
+}
+
+.nav-link:focus, .nav-link:hover {
+  text-decoration: none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(255,255,255)!important;
+}
+
+a:hover {
+}
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #cae4fc;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background: rgb(101,111,232)!important;
+  color: rgba(255,255,255,0.89);
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  /*background-color: #fec810!important;*/
+  /*border-color: #fec810!important;*/
+  /*color: #fff;*/
+  background: rgb(101,111,232);
+  color: rgba(255,255,255,0.89);
+}
+
+.btn-primary {
+  /*color: #fff;*/
+  /*background-color: #fed136;*/
+  /*border-color: #fed136;*/
+  background: rgb(101,111,232);
+  color: rgba(255,255,255,0.89);
+}
+
+.bg-white {
+  background-color: transparent!important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: transparent;
+}
+
+:root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #868e96;
+  --gray-dark: #343a40;
+  --primary: #702bda;
+  --secondary: #868e96;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+
